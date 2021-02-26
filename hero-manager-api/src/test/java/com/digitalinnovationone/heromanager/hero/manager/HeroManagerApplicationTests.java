@@ -1,10 +1,10 @@
-package com.digitalinnovationone.herosapi;
+package com.digitalinnovationone.heromanager.hero.manager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HerosapiApplicationTests {
+class HeroManagerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,20 +8,25 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.digitalinnovationone</groupId>
-	<artifactId>herosapi</artifactId>
+	<groupId>com.digitalinnovationone.heromanager</groupId>
+	<artifactId>hero-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>herosapi</name>
-	<description>Api de Amarzenamento de herois com webflux</description>
+	<name>hero-manager</name>
+	<description>Demo project Hero Manager for Spring Boot and WebFlux</description>
 	<properties>
 		<java.version>15</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -30,11 +35,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.projectreactor</groupId>
-			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

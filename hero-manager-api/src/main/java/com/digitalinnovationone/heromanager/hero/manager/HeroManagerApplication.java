@@ -1,13 +1,13 @@
-package com.digitalinnovationone.herosapi;
+package com.digitalinnovationone.heromanager.hero.manager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HerosapiApplication {
+public class HeroManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HerosapiApplication.class, args);
+		SpringApplication.run(HeroManagerApplication.class, args);
 	}
 
 }
