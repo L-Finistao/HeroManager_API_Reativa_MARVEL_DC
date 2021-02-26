@@ -17,18 +17,18 @@ public class Heroes {
     @Column(nullable = false,unique = true)
     private Long id;
 
-    @Column(nullable = false)
-    private String name;
+    @Column(nullable = false,unique = true)
+    private String nome;
 
     @Column(nullable = false)
     private String universo;
 
     @Column(nullable = false)
     private String filmes;
-    
+
     public Heroes(Long id, String name, String universo, String filmes) {
         this.id = id;
-        this.name = name;
+        this.nome = name;
         this.universo = universo;
         this.filmes = filmes;
     }
